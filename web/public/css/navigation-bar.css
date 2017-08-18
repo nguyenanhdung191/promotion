@@ -1,0 +1,33 @@
+.navigation-container {
+    height: 100%;
+    width: 100%;
+    display: -ms-flex;
+    display: -webkit-flex;
+    display: flex;
+    align-items: center;
+
+}
+
+.navigation-item {
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 20px;
+    color: #7c7c7c;
+    width: 25%;
+    height: 60%;
+    padding-top: 1%;
+    cursor: pointer;
+    -webkit-transition: background-color 200ms, color 100ms;
+    -ms-transition: background-color 200ms, color 100ms;
+    transition: background-color 200ms, color 100ms;
+}
+
+.navigation-item:hover {
+    background-color: #e2eeff;
+    color: #003fa5;
+}
+
+.navigation-item:active {
+    color: red;
+}
+

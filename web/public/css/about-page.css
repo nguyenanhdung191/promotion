@@ -1,0 +1,21 @@
+.about-container {
+    width: 50%;
+    display: inline-block;
+}
+
+.about-container div {
+    margin: 30px;
+    font-weight: bold;
+    font-size: 25px;
+    text-align: center;
+    color: #6d6d6d;
+}
+
+.about-container div:nth-child(3) {
+    font-weight: bold;
+}
+
+.about-container img {
+    height: 100px;
+    width: auto;
+}
